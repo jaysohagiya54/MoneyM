@@ -14,5 +14,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
+  "paths": {
+    "@repo/*": ["src/*"]
+  },
   "exclude": ["node_modules"]
 }
