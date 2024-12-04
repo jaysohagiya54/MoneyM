@@ -15,6 +15,9 @@ export const P2pTransactions = ({
             </div>
         </Card>
     }
+
+
+    
     return <Card title="Recent Transactions">
         <div className="pt-2">
             {transactions.map(t => <div className="flex justify-between">
